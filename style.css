@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner section styling starts here */
+.banner{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-texts{
+    margin-top: 2em;
+    max-width: 90%;
+}
+
+.banner-title{
+    width: 100%;
+    max-width: 700px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.banner-details{
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.banner-img{
+    width: 85%;
+    max-width: 350px;
+    aspect-ratio: 1/1;
+    margin-top: 2em;
+}
+
+/* banner section styling ends here */
+
+/* main section 1 styling starts here */
+
+
+.main1{
+    width: 90%;
+    margin: auto;
+    max-width: 824px;
+}
+
+/* featured section starts here */
+.featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.featured-details{
+    text-align: center;
+}
+
+.featured-flowers{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.flower1{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 2em;
+}
+.flower2{
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 2em;
+}
+.flower3{
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 2em;
+}
+
+
+.flower1 img{
+    height: 300px;
+    aspect-ratio: 1/1.5;
+    padding: 3em 2em 0 2em;
+}
+.flower2 img{
+    height: 300px;
+    aspect-ratio: 1/1.5;
+    padding: 3em 2em 0 2em;
+}
+.flower3 img{
+      height: 300px;
+      aspect-ratio: 1/1.5;
+      padding: 3em 2em 0 2em;
+    }
+.flower-title{
+        text-align:center;
+        margin-top: 2em;
+    }
+    
+    /* featured section starts here */
+    
+    /* main section 1 styling ends here */
+    
+ 
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 5em;
+
+}
+
+.services p{
+    text-align: center;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    gap: 1em;
+}
+
+.service img{
+    height: 45px;
+    aspect-ratio: 1/1;
+}   
+  
+.discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 5em;
+}
+
+.discount-title{
+    margin-top: 1em;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.discount-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-details{
+    width: 200px;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 1.5rem;
+}
+
+.Sign-up{
+    margin-top: 1.5em;
+    border-radius: 8px;
+    background: #E55473; 
+    padding: 20px 43px; 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    color: #FFF;
+}
+
+.discount img{
+    margin-top: 2em;
+}
+
+.main2{
+   margin-top: 5em;
+   width: 90%;
+   margin: auto;
+   max-width: 824px;
+}  
+    
+/* instagram section styling starts here*/
+.instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.instagram-title{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.instagram-flowers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.instagram-flowers img{
+    width: 90%;
+    aspect-ratio: 1/1;
+}
+
+.instagram-details{
+    width: 50%;
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 1.5rem;
+    width:100%;
+    max-width: 700px;
+}
+
+/* instagram section styling ends here*/
+
+
+
+/* subscribe section styling starts here */
+
+.subscribe{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./assets/Rectangle 9.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px; 
+    height: 449px;
+    gap: 1em;
+}
+.subscribe-form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.subscribe-title{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #272727;
+}
+
+.subscribe-form{
+    width: 100%;
+}
+.subscribe-form input[type='email']{
+     border-radius: 2px;
+     width: 50%;
+     background: #FFF;
+     width: 80%;
+     height: 3em;
+     font-size: 1rem;
+}
+.subscribe-form input[type='submit']{
+    margin-top: 1em;
+    border-radius: 8px;
+    background: #E55473; 
+    padding: 10px 23px; 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    color: #FFF;
+}
+
+.footer{
+    background-color: #272727;
+    color: #FFF;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 249px;
+}
+
+.footer-title{
+    color: #E55473;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.footer-details{
+    text-align: center;
+    width: 70%;
+}
+
+.footer-copyright{
+    text-align: center;
+}
+    /* views according to screens */
+    
+@media screen and (min-width:900px){
+        
+        /* banner section styling starts here */
+        .banner{
+            flex-direction: row;
+            justify-content: center;
+            height: 100vh;
+    }
+    .banner-title{
+        width: 400px;
+        margin-left: 1em;
+    }
+    .banner-details{
+        width: 400px;
+        margin-left: 3em;
+    }
+    .banner-img{
+        margin: 0;
+        margin-right: 3em;
+        margin-left: 3em;
+        height: 80vh;
+        /* banner section styling ends here */
+      
+    }
+
+      /* featured section starts here */
+    .featured-flowers{
+        flex-direction: row;
+        gap: 1em;
+    }
+   
+    /* featured section ends here */
+
+    .instagram-flowers{
+        flex-direction: row;
+    }
+    .instagram-flowers img{
+        width: 24%;
+    }
+   .discount{
+    flex-direction: row;
+   }
+   .subscribe-form{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}  
+   .subscribe input[type='submit']{
+      margin: 0;
+   }
+   .subscribe input[type='email']{
+     width: 50%;
+     margin-right: 1em;
+   }
+}
